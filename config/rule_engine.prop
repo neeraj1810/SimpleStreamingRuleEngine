@@ -1,0 +1,6 @@
+spark.ruleEngine.batchTimeInSec=5
+spark.ruleEngine.streamingFilesDirath=<<your dir path>>
+spark.ruleEngine.ruleConfigDbName=<<Rule Config Database Name>>
+spark.ruleEngine.ruleConfigTableName=<<Rule Config Table Name>>
+spark.ruleEngine.invalidRecordDbName=<<Database Name for invalid records>>
+spark.ruleEngine.invalidRecordTableName=<<Table Name for invalid records>>

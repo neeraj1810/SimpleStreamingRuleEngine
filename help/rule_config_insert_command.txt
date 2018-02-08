@@ -1,0 +1,4 @@
+insert into table <<db_name>>.rule_config values("signal = 'ATL1' and lower(value_type) = 'integer' and value > 240", 'ATL1 value should not rise above 240.00', 'error')
+insert into table <<db_name>>.rule_config values("signal = 'ATL1' and lower(value_type) = 'integer' and value > 200", 'ATL1 value should be warned if it rise above 200.00', 'warn')
+insert into table <<db_name>>.rule_config values("signal = 'ATL2' and lower(value_type) = 'string' and lower(value) = 'low'", 'ATL2 value should never be LOW', 'error')
+insert into table <<db_name>>.rule_config values("signal = 'ATL3' and lower(value_type) = 'datetime' and value > from_unixtime(unix_timestamp())", 'ATL3 should not be in future', 'error')

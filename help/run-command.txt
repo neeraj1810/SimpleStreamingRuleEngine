@@ -1,0 +1,1 @@
+spark-submit --master yarn --dely-mode client --num-executors 1 --executor-memory 1g --executor-core 2 --driver-memory 1g --properties-file rule_engine.prop streaming_rule_engine.py
