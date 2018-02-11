@@ -15,5 +15,5 @@ Streaming Data Source:
 Data Sink:
 	Current application writing dumping data in hive tables which is not a right candidate to handle streaming data. We can extend application to write data in some time-series databases like influxdb, open TSDB, Cassandra etc. using either available connector between spark and database or by implementing a custom connector.
 	
-Perforance:
+Performance:
 	In testing application was successfully processing input file(present in test data folder) in a batch of 5 seconds.
